@@ -1,17 +1,48 @@
-## 简介
-记录工作，记录生活，时而用作公告板，时而用作记事本。
-<br>
-## Introduction
-Record work, record life, sometimes as a bulletin board, sometimes as a notepad.
-<br>
-## 看的最远的地方
-博客请访问：[看得最远的地方-HAN_Letisl](https://www.letisl.ml/)
-<br>
-## HAN_Letisl's Blog
-View my blog, please visit: [HAN_Letisl's Blog](https://www.letisl.ml/)
-## Github Page
-本页面地址：[Letisl's Github Pages](https://www.letisl.tk/)
-<br>
-## This Page
-To visit this page: [Letisl's Github Pages](https://www.letisl.tk/)
+### 二次开发
 
+[@Letisl](https://github.com/Letisl)
+
+遵循原有开源协议，完全保留MD文档
+
+### 一个导航
+
+![](https://img.shields.io/badge/version-4.1.1-red)
+
+------------
+
+市面上有很多知名的导航，但是我都不太喜欢。不是铺满广告，就是信息太杂。所以尝试自己写了个导航页，支持响应式。绝对无添加无防腐剂！太低版本的浏览器（比如IE8以下）显示可能有问题，不过也没打算适配。
+
+#### Demo
+
+------------
+
+地址：[点击跳转](http://www.orgloft.com/page/search/)
+
+#### 响应式
+
+------------
+
+**桌面端**
+
+![桌面端预览](https://s1.ax1x.com/2020/03/13/8MV3uT.png)
+
+**移动端**
+
+![移动端预览](https://s1.ax1x.com/2020/03/14/8MV6Ve.jpg)
+
+
+#### 开源相关
+
+------------
+
+Bootstrap：[https://getbootstrap.com](https://getbootstrap.com "https://getbootstrap.com")
+
+CSSFX：[https://cssfx.netlify.com](https://cssfx.netlify.com "https://cssfx.netlify.com")
+
+jQuery：[https://jquery.com](https://jquery.com "https://jquery.com")
+
+slideout：[https://slideout.js.org](https://slideout.js.org "https://slideout.js.org")
+
+font-awesome：[https://fontawesome.com](https://fontawesome.com "https://fontawesome.com")
+
+知心天气：[https://www.seniverse.com/](https://www.seniverse.com/ "https://www.seniverse.com/")
