@@ -79,7 +79,7 @@ $(function() {
       name: '我的博客',
       link: 'https://letisl.ml/',
       box_shadow: '#F18033',
-      icon: 'img/blog.png',
+      icon: 'img/blog2.png',
     }, {
       name: '酷安',
       link: 'https://www.coolapk.com',
@@ -411,16 +411,16 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-  document.getElementById("title").innerHTML = "一个导航 | Good evening";
+  document.getElementById("title").innerHTML = "Letisl's Home | Good evening";
 }
 if (time < 18) {
-  document.getElementById("title").innerHTML = "一个导航 | Good afternoon";
+  document.getElementById("title").innerHTML = "Letisl's Home | Good afternoon";
 }
 if (time < 12) {
-  document.getElementById("title").innerHTML = "一个导航 | Good morning";
+  document.getElementById("title").innerHTML = "Letisl's Home | Good morning";
 }
 if (time < 5) {
-  document.getElementById("title").innerHTML = "一个导航 | Stay up late again";
+  document.getElementById("title").innerHTML = "Letisl's Home | Stay up late again";
 }
 //title问候语结束
 
