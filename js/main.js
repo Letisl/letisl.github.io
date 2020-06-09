@@ -155,11 +155,6 @@ $(function() {
       link: 'http://www.piyao.org.cn/',
       box_shadow: '#7C5DC7',
       icon: 'img/pypt.png',
-    }, {
-      name: '数字尾巴',
-      link: 'https://www.dgtle.com/',
-      box_shadow: '#7C5DC7',
-      icon: 'img/shuziweiba.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
