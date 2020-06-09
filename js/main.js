@@ -88,12 +88,12 @@ $(function() {
     }, {
       name: '南方周末',
       link: 'http://www.infzm.com/',
-      box_shadow: '#F57923',
+      box_shadow: '#D7191A',
       icon: 'img/nfzm.png',
     }, {
       name: '凤凰周刊',
       link: 'http://www.ifengweekly.com/',
-      box_shadow: '#AC6E2F',
+      box_shadow: '#D7191A',
       icon: 'img/fhzk.png',
     }, {
       name: '新周刊',
@@ -143,7 +143,7 @@ $(function() {
     }, {
       name: 'Gitee',
       link: 'https://gitee.com/letisl',
-      box_shadow: '#F57923',
+      box_shadow: '#D7191A',
       icon: 'img/gitee.png',
     }, {
       name: 'Coding',
