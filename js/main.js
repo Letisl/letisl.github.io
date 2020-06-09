@@ -78,7 +78,7 @@ $(function() {
     data: [{
       name: 'Github',
       link: 'https://github.com/Letisl',
-      box_shadow: '#F18033',
+      box_shadow: '#2C2C2C',
       icon: 'img/github-xs.png',
     }, {
       name: '我的博客',
@@ -98,7 +98,7 @@ $(function() {
     }, {
       name: '新周刊',
       link: 'http://www.neweekly.com.cn/',
-      box_shadow: '#fe7700',
+      box_shadow: '#0078D8',
       icon: 'img/xzk.png',
     }, {
       name: '今日热榜',
@@ -115,11 +115,6 @@ $(function() {
       link: 'https://www.zhihu.com/',
       box_shadow: '#0078D8',
       icon: 'img/zhihulogo.png',
-    }, {
-      name: '酷安',
-      link: 'https://www.coolapk.com',
-      box_shadow: '#11B063',
-      icon: 'img/coolapk.png',
     }, {
       name: '豆瓣',
       link: 'https://www.douban.com/',
@@ -138,22 +133,17 @@ $(function() {
     }, {
       name: '大米评测',
       link: 'http://www.pingce.net/',
-      box_shadow: '#c01d2f',
+      box_shadow: '#2C2C2C',
       icon: 'img/dmpc.png',
-    }, {
-      name: '数字尾巴',
-      link: 'https://www.dgtle.com/',
-      box_shadow: '#62677b',
-      icon: 'img/shuziweiba.png',
     }, {
       name: '在线云盘',
       link: 'http://letisl.ys168.com/',
-      box_shadow: '#FA7199',
+      box_shadow: '#0078D8',
       icon: 'img/yp.png',
     }, {
       name: 'Gitee',
       link: 'https://gitee.com/letisl',
-      box_shadow: '#2C2C2C',
+      box_shadow: '#F57923',
       icon: 'img/gitee.png',
     }, {
       name: 'Coding',
@@ -165,6 +155,16 @@ $(function() {
       link: 'http://www.piyao.org.cn/',
       box_shadow: '#7C5DC7',
       icon: 'img/pypt.png',
+    }, {
+      name: '酷安',
+      link: 'https://www.coolapk.com',
+      box_shadow: '#11B063',
+      icon: 'img/coolapk.png',
+    }, {
+      name: '数字尾巴',
+      link: 'https://www.dgtle.com/',
+      box_shadow: '#7C5DC7',
+      icon: 'img/shuziweiba.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
