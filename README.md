@@ -2,7 +2,7 @@
 
 [@Letisl](https://github.com/Letisl)
 
-遵循原有开源协议，完全保留MD文档
+遵循原有开源协议，完全保留README.MD文档
 
 ### 一个导航
 

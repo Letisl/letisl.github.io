@@ -76,60 +76,55 @@ function rgb2hex(rgb) {
 $(function() {
   var bookmark = {
     data: [{
+      name: 'Github',
+      link: 'https://github.com/Letisl',
+      box_shadow: '#F18033',
+      icon: 'img/github-xs.png',
+    }, {
       name: '我的博客',
       link: 'https://letisl.ml/',
       box_shadow: '#F18033',
       icon: 'img/blog2.png',
     }, {
-      name: '酷安',
-      link: 'https://www.coolapk.com',
-      box_shadow: '#11B063',
-      icon: 'img/coolapk.png',
+      name: '南方周末',
+      link: 'http://www.infzm.com/',
+      box_shadow: '#F57923',
+      icon: 'img/nfzm.png',
     }, {
-      name: 'Via插件',
-      link: 'http://via-app.cn',
-      box_shadow: '#FA7199',
-      icon: 'img/via.png',
+      name: '凤凰周刊',
+      link: 'http://www.ifengweekly.com/',
+      box_shadow: '#AC6E2F',
+      icon: 'img/fhzk.png',
+    }, {
+      name: '新周刊',
+      link: 'http://www.neweekly.com.cn/',
+      box_shadow: '#fe7700',
+      icon: 'img/xzk.png',
     }, {
       name: '今日热榜',
       link: 'https://tophub.today/',
       box_shadow: '#F2584A',
       icon: 'img/headline.png',
     }, {
+      name: '维基百科',
+      link: 'https://zh.wikipedia.org/',
+      box_shadow: '#00A0E9',
+      icon: 'img/wikipedia.png',
+    }, {
       name: '知乎',
       link: 'https://www.zhihu.com/',
       box_shadow: '#0078D8',
       icon: 'img/zhihulogo.png',
     }, {
-      name: '小米商城',
-      link: 'https://www.mi.com/',
-      box_shadow: '#F57923',
-      icon: 'img/mi.png',
-    }, {
-      name: 'unsplash',
-      link: 'https://unsplash.com/',
-      box_shadow: '#2C2C2C',
-      icon: 'img/unsplash.png',
+      name: '酷安',
+      link: 'https://www.coolapk.com',
+      box_shadow: '#11B063',
+      icon: 'img/coolapk.png',
     }, {
       name: '豆瓣',
       link: 'https://www.douban.com/',
       box_shadow: '#37bf4c',
       icon: 'img/douban.png',
-    }, {
-      name: '虎扑',
-      link: 'https://www.hupu.com/',
-      box_shadow: '#c01d2f',
-      icon: 'img/hupu.png',
-    }, {
-      name: '斗鱼',
-      link: 'https://www.douyu.com/',
-      box_shadow: '#fe7700',
-      icon: 'img/douyu.png',
-    }, {
-      name: 'XDA',
-      link: 'https://www.xda-developers.com/',
-      box_shadow: '#AC6E2F',
-      icon: 'img/xda.png',
     }, {
       name: '少数派',
       link: 'https://sspai.com/',
@@ -141,20 +136,35 @@ $(function() {
       box_shadow: '#3279ea',
       icon: 'img/xiaozhong.png',
     }, {
+      name: '大米评测',
+      link: 'http://www.pingce.net/',
+      box_shadow: '#c01d2f',
+      icon: 'img/dmpc.png',
+    }, {
       name: '数字尾巴',
       link: 'https://www.dgtle.com/',
       box_shadow: '#62677b',
       icon: 'img/shuziweiba.png',
     }, {
-      name: '疫情跟踪',
-      link: 'https://ncov.dxy.cn/ncovh5/view/pneumonia',
-      box_shadow: '#7C5DC7',
-      icon: 'img/ding.png',
+      name: '在线云盘',
+      link: 'http://letisl.ys168.com/',
+      box_shadow: '#FA7199',
+      icon: 'img/yp.png',
     }, {
-      name: '疫情辟谣',
-      link: 'https://vp.fact.qq.com/home',
-      box_shadow: '#00A0E9',
-      icon: 'img/true.png',
+      name: 'Gitee',
+      link: 'https://gitee.com/letisl',
+      box_shadow: '#2C2C2C',
+      icon: 'img/gitee.png',
+    }, {
+      name: 'Coding',
+      link: 'https://hansteam.coding.net/',
+      box_shadow: '#7C5DC7',
+      icon: 'img/coding.png',
+    }, {
+      name: '辟谣平台',
+      link: 'http://www.piyao.org.cn/',
+      box_shadow: '#7C5DC7',
+      icon: 'img/pypt.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
@@ -186,6 +196,20 @@ $(function() {
       color: '#4285f4',
       placeholder: 'Search on Google...'
     }, {
+      name: 'baiduxueshu',
+      icon: 'img/baidu-xsxs.png',
+      searchlink: 'https://xueshu.baidu.com/s',
+      searchname: 'wd',
+      color: '#3245df',
+      placeholder: '百度学术搜索...'
+    }, {
+      name: 'googlescholar',
+      icon: 'img/google-xs.png',
+      searchlink: 'https://scholar.google.com/scholar',
+      searchname: 'q',
+      color: '#4285f4',
+      placeholder: 'Search on Google Scholar...'
+    }, {
       name: 'bing',
       icon: 'img/bing-xs.png',
       searchlink: 'https://cn.bing.com/search',
@@ -205,14 +229,14 @@ $(function() {
       searchlink: 'https://magi.com/search',
       searchname: 'q',
       color: 'black',
-      placeholder: 'Mag[i]...'
+      placeholder: 'Mag[i]，基于机器学习的信息检索系统...'
     }, {
       name: 'miji',
       icon: 'img/miji-xs.png',
       searchlink: 'https://mijisou.com/',
       searchname: 'q',
       color: '#575757',
-      placeholder: '不追踪你的搜索引擎...'
+      placeholder: '秘迹搜索，不追踪你的搜索引擎...'
     }, {
       name: 'sougou',
       icon: 'img/sougou-xs.png',
@@ -242,13 +266,6 @@ $(function() {
       color: '#2ca43a',
       placeholder: '搜微信文章...'
     }, {
-      name: 'seeres',
-      icon: 'img/seeres-xs.png',
-      searchlink: 'https://seeres.com/search',
-      searchname: 'q',
-      color: '#414baa',
-      placeholder: 'private search...'
-    }, {
       name: 'quark',
       icon: 'img/quark-xs.png',
       searchlink: 'https://quark.sm.cn/s',
@@ -275,7 +292,7 @@ $(function() {
       searchlink: 'https://search.bilibili.com/all',
       searchname: 'keyword',
       color: '#e47494',
-      placeholder: 'Bilibili...'
+      placeholder: '哔哩哔哩 (゜-゜)つロ 干杯...'
     }, {
       name: 'github',
       icon: 'img/github-xs.png',
@@ -283,13 +300,6 @@ $(function() {
       searchname: 'q',
       color: '#24292e',
       placeholder: 'Search on Github...'
-    }, {
-      name: 'toutiao',
-      icon: 'img/toutiao-xs.png',
-      searchlink: 'https://m.toutiao.com/search',
-      searchname: 'keyword',
-      color: '#ed2f28',
-      placeholder: '搜今日头条...'
     }, {
       name: 'weibo',
       icon: 'img/weibo-xs.png',
