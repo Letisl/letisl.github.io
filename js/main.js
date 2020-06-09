@@ -141,26 +141,6 @@ $(function() {
       box_shadow: '#0078D8',
       icon: 'img/yp.png',
     }, {
-      name: 'Gitee',
-      link: 'https://gitee.com/letisl',
-      box_shadow: '#D7191A',
-      icon: 'img/gitee.png',
-    }, {
-      name: 'Coding',
-      link: 'https://hansteam.coding.net/',
-      box_shadow: '#7C5DC7',
-      icon: 'img/coding.png',
-    }, {
-      name: '辟谣平台',
-      link: 'http://www.piyao.org.cn/',
-      box_shadow: '#7C5DC7',
-      icon: 'img/pypt.png',
-    }, {
-      name: '数字尾巴',
-      link: 'https://www.dgtle.com/',
-      box_shadow: '#7C5DC7',
-      icon: 'img/shuziweiba.png',
-    },{
       name: '酷安',
       link: 'https://www.coolapk.com',
       box_shadow: '#11B063',
