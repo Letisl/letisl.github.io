@@ -156,15 +156,15 @@ $(function() {
       box_shadow: '#7C5DC7',
       icon: 'img/pypt.png',
     }, {
-      name: '酷安',
-      link: 'https://www.coolapk.com',
-      box_shadow: '#11B063',
-      icon: 'img/coolapk.png',
-    }, {
       name: '数字尾巴',
       link: 'https://www.dgtle.com/',
       box_shadow: '#7C5DC7',
       icon: 'img/shuziweiba.png',
+    },{
+      name: '酷安',
+      link: 'https://www.coolapk.com',
+      box_shadow: '#11B063',
+      icon: 'img/coolapk.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
