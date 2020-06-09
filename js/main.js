@@ -194,7 +194,7 @@ $(function() {
       placeholder: '百度学术搜索...'
     }, {
       name: 'googlescholar',
-      icon: 'img/google-xs.png',
+      icon: 'img/google-xsxs.png',
       searchlink: 'https://scholar.google.com/scholar',
       searchname: 'q',
       color: '#4285f4',
