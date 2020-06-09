@@ -109,7 +109,7 @@ $(function() {
       name: '维基百科',
       link: 'https://zh.wikipedia.org/',
       box_shadow: '#00A0E9',
-      icon: 'img/wikipedia.png',
+      icon: 'img/wikipedia-min.png',
     }, {
       name: '知乎',
       link: 'https://www.zhihu.com/',
