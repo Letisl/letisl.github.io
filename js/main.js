@@ -82,7 +82,7 @@ $(function() {
       icon: 'img/github-xs.png',
     }, {
       name: '我的博客',
-      link: 'https://letisl.ml/',
+      link: 'https://bg.letisl.eu.org/',
       box_shadow: '#F18033',
       icon: 'img/blog2.png',
     }, {
